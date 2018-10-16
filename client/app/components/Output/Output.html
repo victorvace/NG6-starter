@@ -1,3 +1,5 @@
-<div>
-  <h1>{{ $ctrl.name }}</h1>
+<div ng-repeat="answer in $ctrl.answers">
+  <div>{{ answer.question }}</div>
+  <div>{{ answer.answer }}</div>
 </div>
+

@@ -6,7 +6,7 @@ let InputModule = angular.module('Input', [
   uiRouter
 ])
 
-.component('Input', InputComponent)
+.component('inputQuestion', InputComponent)
 
 .name;
 

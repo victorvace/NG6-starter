@@ -1,9 +1,11 @@
 class InputController {
   constructor() {
-    this.name = 'Input';
+    this.question = '';
   }
-  hola() {
-    console.log('hola');
+  onSubmit() {
+    console.log('nueva pregunta');
+    this.submit({question:this.question});
+    this.question = '';
   }
 }
 

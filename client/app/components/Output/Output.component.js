@@ -3,9 +3,10 @@ import controller from './Output.controller';
 import './Output.scss';
 
 let OutputComponent = {
-  bindings: {},
+  bindings: {
+    answers: '<',
+  },
   template,
-  controller
 };
 
 export default OutputComponent;

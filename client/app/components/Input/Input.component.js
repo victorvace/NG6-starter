@@ -3,7 +3,9 @@ import controller from './Input.controller';
 import './Input.scss';
 
 let InputComponent = {
-  bindings: {},
+  bindings: {
+    submit: '&'
+  },
   template,
   controller
 };

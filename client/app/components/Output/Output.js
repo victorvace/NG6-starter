@@ -6,7 +6,7 @@ let OutputModule = angular.module('Output', [
   uiRouter
 ])
 
-.component('Output', OutputComponent)
+.component('outputQuestion', OutputComponent)
 
 .name;
 

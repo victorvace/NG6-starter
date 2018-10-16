@@ -1,3 +1,7 @@
 <div>
   <h1>{{ $ctrl.name }}</h1>
+  <form ng-submit="$ctrl.onSubmit()">
+    <input ng-model="$ctrl.question" type="text">
+    <input type="submit" value="Dime!">
+  </form>
 </div>
